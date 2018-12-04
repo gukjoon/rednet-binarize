@@ -1,6 +1,7 @@
 import torch
 
-def micro_fm(y_pred, y_true):
+# micro_fm
+def loss_function(y_pred, y_true):
   beta = 1.0
   beta2 = beta**2.0
   top = torch.sum(y_true * y_pred)

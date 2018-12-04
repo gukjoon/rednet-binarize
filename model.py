@@ -73,5 +73,5 @@ class RedNet(nn.Module):
     x = self.finalConv(x)
     return x
 
-def rednet():
+def model():
   return RedNet()
